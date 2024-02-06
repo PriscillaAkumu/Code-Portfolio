@@ -5,7 +5,7 @@ import github from "../../../public/assets/github.png";
 import instagram from "../../../public/assets/instagram.png";
 import telegram from "../../../public/assets/Telegram.png";
 import twitter from "../../../public/assets/twitter.png";
-import linkedIn from "../../../public/assets/vector.png";
+import linkedIn from "../../../public/assets/Vector.png";
 import styles from "./footer.module.css";
 import { Stack, Box } from "@mui/material";
 
