@@ -12,7 +12,7 @@ import styles from "./Project.module.css";
 export default function ProjectSection() {
   return (
     <>
-      <Box sx={{ marginBottom: " 20px" }}>
+      <Box id='projects' sx={{ marginBottom: " 20px" }}>
         <Header />
         {/* first section */}
         <Grid

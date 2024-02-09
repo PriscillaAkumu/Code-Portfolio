@@ -1,26 +1,26 @@
 .herocontainer{
-    position:relative;
-    height:510px;
-    margin:20px 0px;
+  position:relative;
+  height:510px;
+  margin:20px 0px;
 }
 
 .iconcontainer{
-  position: absolute;
-  top:0;
-  right:0;
-  width:28px;
+position: absolute;
+top:0;
+right:0;
+width:28px;
 }
 
 .icons {
-  width: 28px;
-  height: 28px;
-  margin: 5px 0px;
+width: 28px;
+height: 28px;
+margin: 5px 0px;
 }
 
 .welcome{
-  position: absolute;
-  top:25%;
- 
+position: absolute;
+top:25%;
+
 }
 
 
@@ -37,55 +37,56 @@ text-align: left;
 
 
 .imgContainer{
-  width:920px;
-  height: auto;
-  position: absolute;
-  top:8%;
-  transform: translateX(25%);
-  z-index: 2;
-  
+width:930px;
+height: auto;
+position: absolute;
+transform: translateX(24.7%);
+top:10%;
+z-index: 2;
+
 }
 
 .img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  object-fit: contain;
-  object-position: center;
+width: 100%;
+height: 100%;
+overflow: hidden;
+object-fit: contain;
+object-position: center;
 }
 
 .buttonContainer{
-  height: auto;
-  position:absolute;
-  bottom:22%;
-  transform: translateX(17%); 
+height: auto;
+position:absolute;
+bottom:19%;
+transform: translateX(17%); 
 }
 
 .button{
-  width: 200px;
+width: 200px;
 height:60px;
-  border-radius: 11px;
-  background-color:#D9D9D9 ;
-  border:1px solid black;    
-  font-family: 'Lexend', sans-serif ;
-  font-weight: 500;
-  cursor: pointer;
-  color:black;
-  font-size: 18px;
-  text-align: center;
+border-radius: 11px;
+background-color:#D9D9D9 ;
+border:1px solid black;    
+font-family: 'Lexend', sans-serif ;
+font-weight: 500;
+cursor: pointer;
+color:black;
+font-size: 18px;
+text-align: center;
 
 }
 
 
 .vector{
-  width:580px;
-  height: auto;
-  position:absolute;
-  top:30%;
-  right:-2%;
-  z-index: 1;
- 
+width:600px;
+height: auto;
+position:absolute;
+top:30%;
+right:-3%;
+z-index: 1;
+
 }
+
 
 
 @media (max-width: 1024px) {
@@ -185,7 +186,7 @@ height:60px;
   }
 }
 
-@media (min-width: 320px) and (max-width:475px){
+@media (min-width: 320px) and (max-width:740px){
   .herocontainer{
     height:auto;
   }

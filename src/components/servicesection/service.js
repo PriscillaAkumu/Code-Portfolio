@@ -12,7 +12,7 @@ import styles from "./services.module.css";
 export default function ServiceSection() {
   return (
     <>
-      <Box className={styles.serviceContainer}>
+      <Box id='services' className={styles.serviceContainer}>
         <Header />
         {/* first section */}
         <Grid

@@ -10,8 +10,8 @@ import { StyledTypography, StyledParagraph } from '../styles/styles';
 const About = () => {
   return (
     <>
-      <Box className={styles.flexcontainer}>
-        <Stack direction="column" alignItems="center" justifyContent="center">
+      <Box id='about' className={styles.flexcontainer}>
+        <Stack direction="column" alignItems="center" justifyContent="center" sx={{margin:'10px 0px'}}>
           <StyledTypography  >
             ABOUT US
           </StyledTypography>
@@ -22,7 +22,7 @@ const About = () => {
             <Image src={Logo} alt="logo" className={styles.images}/>
           </Grid>
           <Grid item xs={12} sm={12}  md={10} sx={{padding:{xs:0, sm:0, md:'0px 60px'}, }}>
-            <StyledParagraph component="paragraph" >
+            <StyledParagraph  >
               At Code Optix Solutions, we are a tight-knit team of developers,
               complemented by visionary UI/UX designers. Together, we form an
               agile force, dedicated to weaving digital dreams into reality.

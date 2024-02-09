@@ -11,7 +11,7 @@ export default function ContactForm() {
 	
   return (
     <>
-      <Box className={classes.contact}>
+      <Box id='contact' className={classes.contact}>
         <Header />
         <Grid container spacing={2} className={classes.section}>
           <Grid item xs={12} sm={12} md={6} lg={6}>

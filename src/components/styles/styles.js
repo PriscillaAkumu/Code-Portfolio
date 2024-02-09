@@ -13,15 +13,17 @@ export const StyledTypography = styled.div`
   }
 `;
 
-export const StyledParagraph = styled.div`
-  font-size: 24px;
-  font-family: Lexend;
+export const StyledParagraph = styled.p`
+font-size: 24px;
+font-family: Lexend;
 font-weight: 400;
 letter-spacing: 0em;
 text-align: justify;
 color:black;
 
+
   @media (max-width: 768px) {
     font-size: 18px;
+    text-align:left;
   }
 `;

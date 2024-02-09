@@ -8,26 +8,29 @@ const navLink = {
   color :'black',
 }
 const Navlink = () => {
+  const navLink ={
+    color:'black',
+  }
   return (
     <>
-      <Box className={styles.navItem}>
+<Box className={styles.navItem}>
         <Box className={styles.ulItem}>
-          <Link style ={navLink} href="/about" className={styles.navlink}>
+          <Link href="#about" style={navLink} className={styles.navlink}>
             About
           </Link>
-          <Link style ={navLink} href="/contact" className={styles.navlink}>
+          <Link href="#contact" style={navLink} className={styles.navlink}>
             Contact
           </Link>
-          <Link style ={navLink} href="/projects" className={styles.navlink}>
+          <Link href="#projects" style={navLink} className={styles.navlink}>
             Projects
           </Link>
-          <Link style ={navLink} href="/services" className={styles.navlink}>
+          <Link href="#services" style={navLink} className={styles.navlink}>
             Services
           </Link>
         </Box>
    
         <button className={styles.button}>
-           <Link href='/about' className={styles.buttonText}>Let's Connect</Link>
+           <Link href='#' className={styles.buttonText}>Let's Connect</Link>
         </button>
       </Box>
     </>
